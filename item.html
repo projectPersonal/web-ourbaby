@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Our Baby</title>
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<header>
+	<nav>
+	    <div class="nav-wrapper purple darken-3">
+	      <a href="#!" class="brand-logo">Our Baby</a>
+	      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+	      <ul class="right hide-on-med-and-down">
+	        <li><a href="index.html"><i class="material-icons left">home</i> Inicio</a></li>
+	        <li><a href="item.html"><i class="material-icons left ">speaker_notes</i>Item</a></li>
+	        <li><a href="view/about.html"><i class="material-icons left">group_work</i> Acerca</a></li>
+	        <li><a href="view/support.html"><i class="material-icons left">contact_mail</i> Contacto</a></li>
+	      </ul>
+	      <ul class="side-nav" id="mobile-demo">
+	        <li><a href="index.html">Inicio</a></li>
+	        <li><a href="item.html">Item</a></li>
+	        <li><a href="view/about.html">Acerca</a></li>
+	        <li><a href="view/support.html">Contacto</a></li>
+
+	      </ul>
+	    </div>
+  	</nav>
+</header>
+
+<!--Portada Slider-->
+ <section>
+ 	<div class="fullscreen">
+ 		<div class="slider ">
+	    <ul class="slides">
+	      <li>
+	        <img src="imgs/parents2.jpg"> <!-- random image -->
+	        <div class="caption center-align">
+	          <h3>Inicios de Tus Padres</h3>
+	          <h5 class="light grey-text text-lighten-3">Cerro Cuadrado. Sta Rosa.</h5>
+	        </div>
+	      </li>
+	      <li>
+	        <img src="imgs/bb2.jpg"> <!-- random image -->
+	        <div class="caption left-align">
+	          <h3>Una de las Tantas Compras</h3>
+	          <h5 class="light grey-text text-lighten-3">Gimnacio para los Bebés.</h5>
+	        </div>
+	      </li>
+	      <li>
+	        <img src="imgs/mother/mother4.jpg"> <!-- random image -->
+	        <div class="caption right-align">
+	          <h3>La Mamá es sus primeras etapas</h3>
+	          <h5 class="light grey-text text-lighten-3">Inicios de las etapas de embarazo.</h5>
+	        </div>
+	      </li>
+	      <li>
+	        <img src="imgs/parents3.jpg"> <!-- random image -->
+	        <div class="caption center-align">
+	          <h3>Padres Y Tu, Bebé!</h3>
+	          <h5 class="light grey-text text-lighten-3">Te estamos esperando bebé.</h5>
+	        </div>
+	      </li>
+	    </ul>
+  	  </div>	
+ 	</div>
+ </section>
+
+  <div class="container">
+  	
+	
+    <div class="row">
+    	<h2 class="text green-text center">Notas</h2>
+	    <div class="col s12 m12 l12">
+	    	<div class="white-text  card-panel indigo darken-1 z-depth-3">
+	    	
+	    		<h5 class="center"><i class="material-icons">face</i> Nombres</h5>
+		    	<span>Algo de lo que te vas a reir mucho, es que tu papá y mamá estan en una tarea muy interesante. Y es elegir tu nombre.</span><br>
+		    	<span>No sabes que tan dificil es la tarea, aunque suene simple pero es enserio algo muy curioso. Pues Tu a los casi 6 meses y no sabemos que eres... Una niña Linda o un Niño hermoso.</span>
+	    	
+		 
+		    	
+		    </div>
+	    </div>
+  	</div>
+
+
+
+
+
+ </div> <!--/container -->
+
+
+
+	
+
+	<script src="js/jquery-2.2.3.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+	<script>
+		//Initialze event collapse
+		$(document).ready(function () {
+			$(".button-collapse").sideNav();
+			$('.slider').slider({full_width: true});
+		});
+	</script>
+</body>
+</html>
